@@ -7,6 +7,8 @@ body {
     font-family: 'Roboto Mono', monospace;
     background: #efededd0;
     background-image: url("https://source.unsplash.com/1600x900/?nature");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 120%;
 }
 .container {
@@ -86,6 +88,7 @@ h1.temp{
 }
 
 .flex  {
+
     display: flex;
     align-items: center;
 }
